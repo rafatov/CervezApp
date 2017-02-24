@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "es.rafatov"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "es.rafatov"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "es.rafatov"
+        }
+    }
+}
