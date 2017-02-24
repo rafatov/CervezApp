@@ -1,13 +1,107 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/onsenui/css/onsenui.css"/>
-    <link rel="stylesheet" href="css/onsenui/css/onsen-css-components.css"/>
-    <script src="js/onsenui/js/onsenui.js"></script>
-  </head>
 
-  <body>
-    ...
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="onsenui/css/onsenui.css" />
+  <link rel="stylesheet" href="onsenui/css/onsen-css-components.css" />
+
+
+</head>
+
+<body>
+  <ons-navigator animation="slide" page="page1.html" id="myNavigator"></ons-navigator>
+
+    <ons-template id="page1.html">
+      <ons-page id="page1">
+        <ons-toolbar>
+          <div class="center">Cervezas</div>
+        </ons-toolbar>
+
+        <ons-list>
+          <ons-list-header>ALE</ons-list-header>
+          <ons-list-item id="push-button" onclick="document.getElementById('myNavigator').pushPage('page2.html')">
+            <div class="left ">
+              <img class="list__item__thumbnail " src="img/Alhambra.png">
+            </div>
+            <div class="center ">
+              <span class="list__item__title ">Alhambra</span><span class="list__item__subtitle ">Granada, España</span>
+            </div>
+          </ons-list-item>
+
+
+          <ons-list-item onclick="document.getElementById('myNavigator').pushPage('page3.html')">
+            <div class="left ">
+              <img class="list__item__thumbnail " src="img/Guinness.png ">
+            </div>
+            <div class="center ">
+              <span class="list__item__title ">Guinness</span><span class="list__item__subtitle ">Dublín, Irlanda</span>
+            </div>
+          </ons-list-item>
+
+          <ons-list-header>LAGER</ons-list-header>
+          <ons-list-item onclick="document.getElementById('myNavigator').pushPage('page4.html')">
+            <div class="left ">
+              <img class="list__item__thumbnail " src="img/SanMiguel.png ">
+            </div>
+            <div class="center ">
+              <span class="list__item__title ">San Miguel</span><span class="list__item__subtitle ">Manila, Filipinas</span>
+            </div>
+          </ons-list-item>
+
+
+          <ons-list-item onclick="document.getElementById('myNavigator').pushPage('page5.html')">
+            <div class="left ">
+              <img class="list__item__thumbnail " src="img/Corona.png ">
+            </div>
+            <div class="center ">
+              <span class="list__item__title ">Corona</span><span class="list__item__subtitle ">Ciudad de Mexico, Mexico</span>
+            </div>
+          </ons-list-item>
+
+        </ons-list>
+      </ons-page>
+
+    </ons-template>
+
+  </ons-navigator>
+
+
+
+  <ons-template id="page2.html">
+    <ons-page id="page2">
+
+    </ons-page>
+  </ons-template>
+
+
+  <ons-template id="page3.html">
+    <ons-page id="page3">
+
+    </ons-page>
+  </ons-template>
+
+
+  <ons-template id="page4.html">
+    <ons-page id="page4">
+
+    </ons-page>
+  </ons-template>
+
+
+  <ons-template id="page5.html">
+    <ons-page id="page5">
+
+    </ons-page>
+  </ons-template>
+
+  
+
+  <script src="onsenui/js/onsenui.js"></script>
+  <script type="text/javascript " src="js/index.js"></script>
+
+  
+
+</body>
+
 </html>
